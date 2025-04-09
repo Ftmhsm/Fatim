@@ -1,0 +1,63 @@
+body {
+    background-image: url('image/Background.jpeg');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: pink;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .product {
+    margin-bottom: 50px;
+    background: rgb(252, 233, 236);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  /* Tombol ke atas */
+  #scrollTopBtn {
+    scroll-behavior: smooth;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    background-color: #ffb6c1;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    opacity: 0.6;
+    transition: opacity 0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  #scrollTopBtn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
